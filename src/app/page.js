@@ -47,7 +47,7 @@ export default function Home() {
                 alt="Facebook"
                 width={32}
                 height={32}
-                className="h-auto w-[28px] md:w-[32px]"
+                className="h-auto w-[28px] md:w-[32px] dark:invert hover:scale-110"
               />
             </a>
             <a
@@ -60,7 +60,7 @@ export default function Home() {
                 alt="Twitter"
                 width={32}
                 height={32}
-                className="h-auto w-[28px] md:w-[32px]"
+                className="h-auto w-[28px] md:w-[32px] dark:invert hover:scale-110"
               />
             </a>
             <a
@@ -73,7 +73,7 @@ export default function Home() {
                 alt="Instagram"
                 width={32}
                 height={32}
-                className="h-auto w-[28px] md:w-[32px]"
+                className="h-auto w-[28px] md:w-[32px] dark:invert hover:scale-110"
               />
             </a>
             <a
@@ -86,7 +86,7 @@ export default function Home() {
                 alt="Linkedin"
                 width={32}
                 height={32}
-                className="h-auto w-[28px] md:w-[32px]"
+                className="h-auto w-[28px] md:w-[32px] dark:invert hover:scale-110"
               />
             </a>
           </div>
