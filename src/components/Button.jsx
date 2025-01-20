@@ -3,7 +3,7 @@ import React from "react";
 const Button = ({ children, className = "", ...props }) => {
   return (
     <button
-      className={`relative min-w-[144px] 3xl:min-w-[186px] bg-orange py-[6px] px-[18.5px] md:py-[10px] md:px-[22.5px] text-base lg:text-lg 2xl:text-xl 3xl:text-[21px] 3xl:leading-[31.5px] rounded-md text-white overflow-hidden group ${className}`}
+      className={`relative min-w-[144px] xl:min-w-[186px] min-h-[36px] xl:min-h-[52px] bg-orange py-[6px] px-[18.5px] md:py-[10px] md:px-[22.5px] text-sm md:text-base lg:text-lg xl:text-[21px] xl:leading-[31.5px] rounded-md text-white overflow-hidden group ${className}`}
       {...props}
     >
       <span className="relative z-10">{children}</span>

@@ -6,7 +6,9 @@ export default function Home() {
       <div className="mt-8 md:mt-12 lg:mt-16 xl:mt-20 2xl:mt-24 3xl:mt-[120px] container flex justify-between">
         {/* Hero Section */}
         <div>
-          <h6>Hi I am</h6>
+          <h6 className="text-base md:text-lg lg:text-xl xl:text-2xl">
+            Hi I am
+          </h6>
           <h5>Muhammad Umair</h5>
           <h1>UI & UX/</h1>
           <h1>Designer</h1>

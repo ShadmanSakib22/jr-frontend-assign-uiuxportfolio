@@ -28,9 +28,9 @@ const Navbar = () => {
   return (
     <div className="container flex justify-between items-center mt-[18px] md:mt-[24px] lg:mt-[30px] xl:mt-[36px] 2xl:mt-[48px] 3xl:mt-[61px]">
       <Logo />
-      <div className="flex items-center gap-2 lg:gap-3 xl:gap-4 3xl:gap-6">
+      <div className="flex items-center gap-2 md:gap-3 lg:gap-4 xl:gap-6">
         {/* Desktop Menu */}
-        <div className="hidden nav:flex gap-3 text-base lg:text-lg 2xl:text-xl 3xl:text-[21px] 3xl:leading-[31.5px]">
+        <div className="hidden nav:flex gap-3 text-sm md:text-base  lg:text-lg xl:text-[21px] xl:leading-[31.5px]">
           <Link
             className="py-[10px] px-[14px] border-b-2 border-transparent hover:border-orange"
             href="/"
