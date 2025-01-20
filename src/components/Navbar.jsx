@@ -68,7 +68,9 @@ const Navbar = () => {
             Contact
           </Link>
         </div>
-        <Button href="#">Download CV</Button>
+        <Button href="https://docs.google.com/document/u/3/d/17s6injUlvj12B-Wituc63HStdwiz7nAB/edit?usp=sharing&ouid=115944811398564221680&rtpof=true&sd=true">
+          Download CV
+        </Button>
 
         {/* Hamburger Button */}
         <button

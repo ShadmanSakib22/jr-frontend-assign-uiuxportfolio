@@ -17,7 +17,7 @@ const Logo = () => {
       href="/"
     >
       <Image
-        src="./logo.svg"
+        src="/logo.svg"
         alt="Logo"
         width={67}
         height={67}

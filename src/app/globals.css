@@ -22,7 +22,7 @@ body {
 
 @layer components {
   .main-h1 {
-    @apply font-bold text-4xl md:text-6xl lg:text-7xl xl:text-[100px] xl:leading-[120px];
+    @apply font-bold text-4xl md:text-6xl lg:text-7xl xl:text-[100px];
   }
 
   .main-h2 {
