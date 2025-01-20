@@ -7,24 +7,35 @@ export default {
   ],
   theme: {
     screens: {
-      sm: "480px",
+      sm: "320px",
       md: "768px",
-      lg: "976px",
+      nav: "1080px",
+      lg: "1280px",
       xl: "1440px",
+      "2xl": "1536px",
+      "3xl": "1920px",
     },
-    colors: {
-      orange: "#FD6F00",
-      lightOrange: "#FFEBDB",
-      light1: "#F8F8F8",
-      light2: "#D9D9D9",
-      light3: "#AFAFAF",
-      footerLight: "#545454",
-      footerDark: "#121212",
+    container: {
+      center: true,
+      padding: "1rem",
+      screens: {
+        xl: "1436px", //1420 + 16 for Padding
+      },
     },
+
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        orange: "#FD6F00",
+        lightOrange: "#FFEBDB",
+        light1: "#F8F8F8",
+        light2: "#D9D9D9",
+        light3: "#AFAFAF",
+        lightBlack: "#545454",
+        footerDark: "#121212",
+        charcoalBlack: "#1E1E1E",
+        bgGray: "#FBFBFB",
       },
     },
   },
