@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import Logo from "@/components/Logo";
+import Button from "./Button";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -67,13 +68,7 @@ const Navbar = () => {
             Contact
           </Link>
         </div>
-        <a
-          href="#"
-          className="relative bg-orange py-[8px] px-[18px] md:py-[10px] md:px-[21px] text-base lg:text-lg 2xl:text-xl 3xl:text-[21px] 3xl:leading-[31.5px] rounded-md text-white overflow-hidden group"
-        >
-          <span className="relative z-10">Download CV</span>
-          <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform delay-300 duration-1000 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
-        </a>
+        <Button href="#">Download CV</Button>
 
         {/* Hamburger Button */}
         <button
