@@ -30,7 +30,7 @@ const Navbar = () => {
       <Logo />
       <div className="flex items-center gap-2 md:gap-3 lg:gap-4 xl:gap-6">
         {/* Desktop Menu */}
-        <div className="hidden nav:flex gap-3 text-sm md:text-base  lg:text-lg xl:text-[21px] xl:leading-[31.5px]">
+        <div className="hidden nav:flex gap-3 body-text">
           <Link
             className="py-[10px] px-[14px] border-b-2 border-transparent hover:border-orange"
             href="/"
@@ -95,7 +95,7 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <div
           ref={menuRef}
-          className={`fixed z-[49] top-0 right-0 h-screen w-[234px] font-bold bg-orange lg:hidden transition-transform duration-300 ${
+          className={`fixed z-[49] top-0 right-0 h-screen w-[234px] ter-heading font-bold bg-orange lg:hidden transition-transform duration-300 ${
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
