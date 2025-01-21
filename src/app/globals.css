@@ -41,3 +41,32 @@ body {
     @apply text-sm md:text-base lg:text-lg xl:text-[21px] xl:leading-[31.5px];
   }
 }
+
+.mySwiper {
+  overflow: hidden;
+  /* Hide overflow to prevent showing full slides */
+}
+
+.swiper-slide {
+  opacity: 0.45;
+  /* Set default opacity for all slides */
+  transition: opacity 0.3s ease;
+  /* Smooth transition for opacity */
+}
+
+.swiper-slide-active {
+  opacity: 1;
+  /* Full opacity for the active slide */
+}
+
+.swiper-custom-pagination .swiper-pagination-bullet {
+  background-color: #D9D9D9 !important;
+  border-radius: 8px !important;
+  width: 57px !important;
+  height: 16px !important;
+  margin: 0 9px;  
+}
+
+.swiper-custom-pagination .swiper-pagination-bullet-active {
+  background-color: #FD6F00 !important;
+}
