@@ -11,7 +11,7 @@ const poppins = Poppins({
 export const metadata = {
   title: "UI/UX Portfolio",
   description:
-    "Personal Portfolio Landing Page - UI/UX Designer. Potenial Inc - Assignnment JAN 2025",
+    "Personal Portfolio Landing Page - UI/UX Designer. Junior Frontend - Assignnment JAN 2025",
 };
 
 export default function RootLayout({ children }) {

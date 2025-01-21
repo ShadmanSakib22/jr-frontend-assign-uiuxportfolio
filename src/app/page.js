@@ -137,11 +137,20 @@ export default function Home() {
       <div className="mt-[64px] lg:mt-[140px] container text-center">
         <h2 className="main-h2 mb-2 lg:mb-4">Projects</h2>
         <p className="body-text max-w-[80%] lg:max-w-[921px] mx-auto mb-6 lg:mb-10">
-          Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris est risus lectus. Phasellus consequat urna tellus/
+          Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris est risus lectus. Phasellus consequat urna tellus
         </p>
         {/* Projects Cards */}
         <Projects />
       </div>
+
+      {/* Testimonials Section */}
+      <div className="mt-[64px] lg:mt-[140px] container text-center">
+        <h2 className="main-h2 mb-2 lg:mb-4">Testimonials</h2>
+        <p className="body-text max-w-[80%] lg:max-w-[932px] mx-auto mb-6 lg:mb-10">
+          Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
+        {/* Testimonials Cards */}
+       
+        </div>
     </>
   );
 }
