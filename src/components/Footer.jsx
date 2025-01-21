@@ -8,7 +8,6 @@ const Footer = () => {
     <div className="bg-light1 dark:bg-charcoalBlack flex flex-col items-center">
       <Logo />
       <div className="flex flex-row flex-wrap justify-center mx-4 gap-3 mt-8 md:mt-12 lg:mt-16 mb-4 md:mb-6 lg:mb-10 body-text">
-
           <Link
             className="py-[10px] px-[14px] border-b-2 border-transparent hover:border-orange"
             href="/"
@@ -44,8 +43,7 @@ const Footer = () => {
             href="#contact"
           >
             Contact
-          </Link>
-      
+          </Link>      
       </div>
       <SocialIcons />
       <div className="text-center bg-lightBlack dark:bg-footerDark text-white py-5 md:py-6 lg:py-[26px] body-text w-full mt-8 md:mt-12 lg:mt-16">

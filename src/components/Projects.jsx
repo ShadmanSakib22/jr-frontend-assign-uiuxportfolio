@@ -129,12 +129,13 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-5 place-items-center justify-center mx-auto max-w-fit">
         {displayedProjects.map((project) => (
           <div key={project.id} className="flex flex-col items-center">
-            <div className="bg-lightOrange w-[325px] lg:w-[445px] h-[370px] lg:h-[490px] mb-8 flex justify-center items-center">
+            <div className="bg-lightOrange w-[325px] lg:w-[445px] h-[370px] lg:h-[490px] mb-4 md:mb-6 lg:mb-8 flex justify-center items-center rounded-xl">
               <Image
                 src={project.image.src}
                 alt={project.image.alt}
                 width={project.image.width}
                 height={project.image.height}
+                className="object-contain w-[325px] lg:w-[445px] h-[370px] lg:h-[490px]"
               />
             </div>
             <h6 className="text-orange text-base xl:text-lg mb-2 md:mb-3">
