@@ -82,6 +82,10 @@ const TestimonialSlider = () => {
             slidesPerView: 1.35,
             spaceBetween: 40,
           },
+          1440: {
+            slidesPerView: 1.5,
+            spaceBetween: 40,
+          }
         }}
         pagination={{
           clickable: true,

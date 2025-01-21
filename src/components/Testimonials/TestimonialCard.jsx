@@ -11,7 +11,7 @@ const TestimonialCard = ({ testimonial }) => {
           alt={testimonial.image.alt}
           width={testimonial.image.width}
           height={testimonial.image.height}
-          className="rounded-full w-[175pxx] h-[175px] lg:w-[275px] lg:h-[275px] "
+          className="rounded-full w-[175px] h-[175px] lg:w-[275px] lg:h-[275px]"
         />
         <div className="flex flex-col gap-2">
           <p className="body-text mb-3">

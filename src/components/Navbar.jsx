@@ -39,31 +39,31 @@ const Navbar = () => {
           </Link>
           <Link
             className="py-[10px] px-[14px] border-b-2 border-transparent hover:border-orange"
-            href="#"
+            href="#about-me"
           >
             About Me
           </Link>
           <Link
             className="py-[10px] px-[14px] border-b-2 border-transparent hover:border-orange"
-            href="#"
+            href="#services"
           >
             Services
           </Link>
           <Link
             className="py-[10px] px-[14px] border-b-2 border-transparent hover:border-orange"
-            href="#"
+            href="#projects"
           >
             Projects
           </Link>
           <Link
             className="py-[10px] px-[14px] border-b-2 border-transparent hover:border-orange"
-            href="#"
+            href="#testimonials"
           >
             Testimonials
           </Link>
           <Link
             className="py-[10px] px-[14px] border-b-2 border-transparent hover:border-orange"
-            href="#"
+            href="#contact"
           >
             Contact
           </Link>
@@ -110,31 +110,31 @@ const Navbar = () => {
             </Link>
             <Link
               className="py-[10px] px-[14px] border-y-2 border-transparent bg-background hover:border-foreground dark:hover:border-foreground"
-              href="#"
+              href="#about-me"
             >
               About Me
             </Link>
             <Link
               className="py-[10px] px-[14px] border-y-2 border-transparent bg-background hover:border-foreground dark:hover:border-foreground"
-              href="#"
+              href="#services"
             >
               Services
             </Link>
             <Link
               className="py-[10px] px-[14px] border-y-2 border-transparent bg-background hover:border-foreground dark:hover:border-foreground"
-              href="#"
+              href="#projects"
             >
               Projects
             </Link>
             <Link
               className="py-[10px] px-[14px] border-y-2 border-transparent bg-background hover:border-foreground dark:hover:border-foreground"
-              href="#"
+              href="#testimonials"
             >
               Testimonials
             </Link>
             <Link
               className="py-[10px] px-[14px] border-y-2 border-transparent bg-background hover:border-foreground dark:hover:border-foreground"
-              href="#"
+              href="#contact"
             >
               Contact
             </Link>
