@@ -25,7 +25,7 @@ const SocialIcons = () => {
                   rel="noopener noreferrer"
                 >
                   <Image
-                    src={"/icons/twitter.svg"}
+                    src={"/icons/Twitter.svg"}
                     alt="Twitter"
                     width={32}
                     height={32}
@@ -38,7 +38,7 @@ const SocialIcons = () => {
                   rel="noopener noreferrer"
                 >
                   <Image
-                    src={"/icons/instagram.svg"}
+                    src={"/icons/Instagram.svg"}
                     alt="Instagram"
                     width={32}
                     height={32}

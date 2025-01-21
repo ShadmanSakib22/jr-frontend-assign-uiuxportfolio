@@ -17,7 +17,7 @@ const projectsData = [
     category: "Web Design",
     link: "shadman-portfolio-2024.vercel.app/",
     image: {
-      src: "/projects/project1.png",
+      src: "/projects/Project1.png",
       alt: "Project One",
       width: 379,
       height: 490,
@@ -29,7 +29,7 @@ const projectsData = [
     category: "Web Design",
     link: "shadman-portfolio-2024.vercel.app/",
     image: {
-      src: "/projects/project2.png",
+      src: "/projects/Project2.png",
       alt: "Project Two",
       width: 379,
       height: 490,
@@ -41,7 +41,7 @@ const projectsData = [
     category: "Web Design",
     link: "shadman-portfolio-2024.vercel.app/",
     image: {
-      src: "/projects/project3.png",
+      src: "/projects/Project3.png",
       alt: "Project Three",
       width: 379,
       height: 490,
@@ -53,7 +53,7 @@ const projectsData = [
     category: "App Design",
     link: "shadman-portfolio-2024.vercel.app/",
     image: {
-      src: "/projects/project1.png",
+      src: "/projects/Project1.png",
       alt: "Project Four",
       width: 379,
       height: 490,
@@ -65,7 +65,7 @@ const projectsData = [
     category: "UI/UX",
     link: "shadman-portfolio-2024.vercel.app/",
     image: {
-      src: "/projects/project2.png",
+      src: "/projects/Project2.png",
       alt: "Project Five",
       width: 379,
       height: 490,
@@ -77,7 +77,7 @@ const projectsData = [
     category: "Graphic Design",
     link: "shadman-portfolio-2024.vercel.app/",
     image: {
-      src: "/projects/project1.png",
+      src: "/projects/Project1.png",
       alt: "Project Six",
       width: 379,
       height: 490,
